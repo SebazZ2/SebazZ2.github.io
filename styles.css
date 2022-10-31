@@ -1,0 +1,76 @@
+body, html{
+
+    height: 100%
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: blueviolet;
+    font-style: italic;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.gengar{
+  width: 80px;
+  height: auto;
+  justify-content: center;
+}
+
+.edit{
+    width: 300px;
+    padding: 40px;
+    background-color: rgb(34, 34, 34);
+    
+    text-align: center;
+    border-radius: 20px;
+}
+
+.title{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.edit input[type="text"],
+.edit input[type="password"],
+.edit button[type="button"]{
+
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    padding: 14px 10px;
+    text-align: center;
+    border: 3px solid #6700ed;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+    transition: 0.25s;
+
+}
+
+.edit input[type="text"]:focus,
+.edit input[type="password"]:focus{
+    width: 280px;
+    border-color: white;
+}
+
+.edit button[type="button"]{
+    border: 0;
+    background: #6700ed;
+    cursor: pointer;
+    border: 2px solid #6700ed;
+}
+
+.edit button[type="button"]:hover{
+    background: none;
+    
+}
